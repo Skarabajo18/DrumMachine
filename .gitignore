@@ -1,0 +1,21 @@
+# Ignora artefactos pesados y temporales
+
+# Carpeta de builds generada por Projucer/Visual Studio
+Builds/
+
+# Directorio oculto de Visual Studio (por si aparece en la raíz)
+.vs/
+
+# Archivos comunes del sistema
+Thumbs.db
+.DS_Store
+
+# Binarios y objetos (si se generan fuera de Builds)
+*.obj
+*.pdb
+*.exe
+*.dll
+*.lib
+*.vst3
+*.exp
+*.log
